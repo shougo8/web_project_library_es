@@ -312,7 +312,8 @@
   padding: 0;
   margin: 100px 0 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  column-gap: 40px;
 }
 
 .step {
@@ -338,8 +339,8 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: black;
   padding: 60px 80px;
+  background-color: #1f1f1f;
 }
 
 .footer__columns {
